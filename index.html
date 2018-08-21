@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/logo/lock.png">
+
+    <title>Crypt On</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/signin.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!--javascript for CryptON-->
+    <script src="scripts/crypt_on.js"></script>
+
+
+  </head>
+
+  <body class="text-center">
+
+
+    <form class="form-signin card">
+      <header>
+            <img class="mb-4" src="images/logo/lock.png" alt="" width="72" height="72">
+            <h1 class="h3 mb-3 font-weight-normal">Crypt_0n</h1>
+      </header>
+
+      <content>
+             <input type="password" id="passphrase1" class="form-control" placeholder="Passphrase 1" required>
+             <input type="password" id="passphrase2" class="form-control" placeholder="Passphrase 2" required>
+            <input type="password" id="passphrase3" class="form-control" placeholder="Passphrase 3" required>
+        
+            <!-- generate button-->
+            <button class="btn btn-lg btn-success btn-block" type="button" id="button1" onclick="generate()">Generate</button>
+     </content>
+
+     <footer>
+      <input type="text"  class="form-control"  id="output" placeholder="Result" required>
+    </footer>    
+
+
+      
+      
+    </form>
+
+    
+  </body>
+</html>
